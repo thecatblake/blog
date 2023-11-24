@@ -1,6 +1,1 @@
-Sitemap: https://iamtk.co/sitemap.xml
-
 User-agent: *
-Allow: /*
-
-Disallow: /api/*

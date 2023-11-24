@@ -1,1 +1,0 @@
-export { createPostsFile } from './posts';
