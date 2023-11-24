@@ -34,7 +34,7 @@ const Page: NextPage = () => (
     <AnimationLayout>
       <main id="main">
         <div className="content">
-          <Title text="K.R" />
+          <Title text="TK Kinoshita" />
           <About />
           <Writings />
           <Series />

@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import type { NextPage } from 'next';
 
 import { HomeLink } from 'Base/Article/HomeLink';
+import { SubstackEmbed } from 'Base/Community/SubstackEmbed';
 import { Head } from 'Base/components/Head';
 import { AnimationLayout } from 'Base/components/Layout/AnimationLayout';
 import { Navbar } from 'Base/components/Navbar';
@@ -60,7 +61,7 @@ const Page: NextPage = () => (
               Follow me on{' '}
               <a
                 target="_blank"
-                href="https://twitter.com/blairablake"
+                href="https://twitter.com/wordsofteekay"
                 title="twitter"
                 rel="noreferrer"
               >
@@ -72,7 +73,7 @@ const Page: NextPage = () => (
               Follow me on{' '}
               <a
                 target="_blank"
-                href="https://github.com/thecatblake"
+                href="https://github.com/imteekay"
                 title="github"
                 rel="noreferrer"
               >
@@ -86,6 +87,7 @@ const Page: NextPage = () => (
           <p style={{ marginBottom: '0', marginTop: '30px' }}>
             Or subscribe to my free or paid newsletter:
           </p>
+          <SubstackEmbed />
 
           <p style={{ marginTop: '0' }}>
             Thank you,<br></br>

@@ -6,6 +6,6 @@ export const SubstackEmbed = () => (
     width="100%"
     height="300"
     style={substackEmbedStyle}
-    title="KR's Substack"
+    title="TK's Substack"
   ></iframe>
 );

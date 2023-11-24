@@ -15,7 +15,7 @@ module.exports = {
     return [
       {
         source: '/github',
-        destination: 'https://github.com/thecatblake',
+        destination: 'https://github.com/imteekay',
         permanent: false,
       },
       {
@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         source: '/twitter',
-        destination: 'https://twitter.com/blairablake',
+        destination: 'https://twitter.com/wordsofteekay',
         permanent: false,
       },
       {

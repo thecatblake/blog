@@ -8,7 +8,7 @@ export const SocialLinks: FC = () => (
     <a
       className="icon"
       target="_blank"
-      href="https://twitter.com/blairablake"
+      href="https://twitter.com/wordsofteekay"
       title="twitter"
       rel="noreferrer"
     >
@@ -17,7 +17,7 @@ export const SocialLinks: FC = () => (
     <a
       className="icon"
       target="_blank"
-      href="https://github.com/thecatblake"
+      href="https://github.com/imteekay"
       title="github"
       rel="noreferrer"
     >

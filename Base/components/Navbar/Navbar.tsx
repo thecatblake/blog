@@ -17,6 +17,6 @@ const Logo = styled(Link)`
 
 export const Navbar = () => (
   <Header>
-    <Logo href="/">KR</Logo>
+    <Logo href="/">TK</Logo>
   </Header>
 );

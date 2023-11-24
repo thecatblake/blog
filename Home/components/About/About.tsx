@@ -5,7 +5,9 @@ import {
   faTwitter,
   faGithub,
   faGoodreads,
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
+import { faStickyNote, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { Divider } from 'Base/components/Divider';
@@ -27,7 +29,7 @@ const Socials = () => (
       className="icon"
       target="_blank"
       rel="noopener noreferrer"
-      href="https://github.com/thecatblake"
+      href="https://github.com/imteekay"
       title="github"
     >
       <FontAwesomeIcon icon={faGithub} size="lg" />
@@ -37,7 +39,7 @@ const Socials = () => (
       className="icon"
       target="_blank"
       rel="noopener noreferrer"
-      href="https://twitter.com/blairablake"
+      href="https://twitter.com/wordsofteekay"
       title="twitter"
     >
       <FontAwesomeIcon icon={faTwitter} size="lg" />
@@ -47,10 +49,40 @@ const Socials = () => (
       className="icon"
       target="_blank"
       rel="noopener noreferrer"
-      href="https://www.goodreads.com/user/show/170889355-blake"
+      href="https://www.goodreads.com/iamteekay"
       title="goodreads"
     >
       <FontAwesomeIcon icon={faGoodreads} size="lg" />
+    </Link>
+
+    <Link
+      className="icon"
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://www.linkedin.com/in/imtk"
+      title="linkedin"
+    >
+      <FontAwesomeIcon icon={faLinkedin} size="lg" />
+    </Link>
+
+    <Link
+      className="icon"
+      target="_blank"
+      rel="noopener noreferrer"
+      href="./cv.pdf"
+      title="cv"
+    >
+      <FontAwesomeIcon icon={faStickyNote} size="lg" />
+    </Link>
+
+    <Link
+      className="icon"
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://teekay.substack.com"
+      title="substack"
+    >
+      <FontAwesomeIcon icon={faEnvelope} size="lg" />
     </Link>
   </Wrapper>
 );
@@ -69,12 +101,12 @@ export const About: FC = () => (
   <AboutSection id="about">
     <div>
       <p className="no-margin-top">
-        🇯🇵 . software engineer . writer . researcher
+        🇯🇵🇧🇷 . software engineer . writer . researcher
       </p>
       <Topics className="no-margin">
-        algorithms . blockchain . computational science . cryptography
+        programming language theory . compilers
         <br />
-        data science . database . distributed system . game programming . computer vision . compiler .computer graphics . machine learning . mathematics . physics
+        frontend architecture . infrastructure
       </Topics>
     </div>
     <Socials />

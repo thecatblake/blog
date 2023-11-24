@@ -6,7 +6,7 @@ type AuthorPropTypes = {
   name?: string;
 };
 
-export const Author: FC<AuthorPropTypes> = ({ name = 'KR' }) => (
+export const Author: FC<AuthorPropTypes> = ({ name = 'TK' }) => (
   <span
     className="author"
     itemProp="author"

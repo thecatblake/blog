@@ -81,7 +81,7 @@ export const SearchBar: FC = ({ children }) => {
       shortcut: ['f', 'g'],
       keywords: 'go-github',
       section: 'Social',
-      perform: () => window.open('https://github.com/thecatblake', '_blank'),
+      perform: () => window.open('https://github.com/imteekay', '_blank'),
       icon: <Icon src="/github.svg" />,
     },
     {
@@ -90,7 +90,7 @@ export const SearchBar: FC = ({ children }) => {
       shortcut: ['f', 't'],
       keywords: 'go-twitter',
       section: 'Social',
-      perform: () => window.open('https://twitter.com/blairablake', '_blank'),
+      perform: () => window.open('https://twitter.com/wordsofteekay', '_blank'),
       icon: <Icon src="/twitter.svg" />,
     },
     {

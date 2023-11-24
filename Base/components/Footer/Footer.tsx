@@ -16,7 +16,7 @@ const NewTabLink = ({ children, href }: NewTabLinkProps) => (
 export const Footer: FC = () => (
   <footer id="footer" className="footer">
     <div className="footer-left">
-      Copyright &copy; {new Date().getFullYear()} KR
+      Copyright &copy; {new Date().getFullYear()} TK
     </div>
     <div className="footer-right">
       <nav>
@@ -31,7 +31,7 @@ export const Footer: FC = () => (
             <Link href="/support">Support</Link>
           </li>
           <li>
-            <NewTabLink href="https://github.com/thecatblake">
+            <NewTabLink href="https://github.com/imteekay/iamtk.co">
               Code
             </NewTabLink>
           </li>
