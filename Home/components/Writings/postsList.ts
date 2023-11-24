@@ -7,11 +7,6 @@ type Post = {
 
 export const postsList: Post[] = [
   {
-    datetime: '2021-01-17',
-    link: '/bookshelf/atomic-habits',
-    title: 'Atomic Habits',
-  },
-  {
     datetime: '2021-01-02',
     link: '/bookshelf/the-effective-engineer',
     title: 'The Effective Engineer',
